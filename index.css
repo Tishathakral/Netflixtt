@@ -58,3 +58,79 @@ img{
 img:hover{
     transform: scale(1.2);
 }
+.video{
+   display:flex;
+   justify-content: space-around;
+   height: 200px;  
+}
+.img{
+    display:flex;
+    justify-content: space-around;
+    height: 200px;
+}
+.header{
+    display:inline;  
+}
+@media only screen and (max-width:768px) {
+  
+    
+ table {
+    margin-left:15%;
+    text-align: center;
+}
+
+ header{
+   
+    Position:Fixed;
+   
+    top: 0;
+    width: 100%;
+    padding-top :20px;
+    padding-bottom: 20px;
+    z-index: 100;
+    
+ }
+
+ .video{
+     height: 150px;
+ }
+ .img{
+    height: 100px;
+ }
+ video{
+    height: 480px;
+ }
+        
+}
+@media only screen and (max-width:600px){
+  
+    
+    table {
+    margin-left:10%;
+    text-align: center;
+   }
+
+   
+ header{
+   
+    Position:Fixed;
+   
+    top: 0;
+    width: 100%;
+    padding-top :20px;
+    padding-bottom: 20px;
+    z-index: 100;
+    
+ }
+
+.video{
+    height: 125px;
+}
+.img{
+   height: 100px;
+}
+video{
+    height: 360px;
+}
+    
+}
