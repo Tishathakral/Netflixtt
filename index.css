@@ -134,3 +134,36 @@ video{
 }
     
 }
+@media only screen and (max-width:600px){
+  
+    
+    table {
+  
+    margin-left:6%;
+    text-align: center;
+   }
+
+   
+ header{
+   
+    Position:Fixed;
+   
+    top: 0;
+    width: 100%;
+    padding-top :20px;
+    padding-bottom: 20px;
+    z-index: 100;
+    
+ }
+
+.video{
+    height: 110px;
+}
+.img{
+   height: 100px;
+}
+video{
+    height: 360px;
+}
+    
+}
